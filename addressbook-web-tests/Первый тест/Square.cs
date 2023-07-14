@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace addressbook_web_tests
 {
-    internal class Square
+    class Square : Figure
     {
         private int size;
+       
 
         public Square(int size) // конструктор 
         {
@@ -28,5 +29,7 @@ namespace addressbook_web_tests
 
 
         }
+
+        
     }
 }
